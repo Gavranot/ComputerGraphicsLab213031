@@ -1,0 +1,60 @@
+Index: cmake-build-debug/.ninja_log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ninja log v5\n34\t979\t7096009072667936\tvendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj\tbfc3b3ed2ba9225b\n40\t1078\t7096009073750619\tvendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj\t97a0df3311345c10\n45\t989\t7096009072717946\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj\t319835bf0663ff88\n2262\t2404\t7096009087009282\tOpenGLPrj/OpenGLPrj.exe\t730c96ddec62a396\n14\t996\t7096009072687940\tvendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj\t124e9b41248e6f23\n28\t1003\t7096009072797969\tvendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj\t311d3d398502ab71\n996\t1874\t7096009081718085\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj\tf47b211f31719efb\n0\t1412\t7096009077077030\tCMakeFiles/OpenGLPrj.dir/src/main.cpp.obj\t92afd03b42b6cf63\n18\t1010\t7096009072757955\tvendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj\t123295de294984ef\n24\t1032\t7096009073208057\tvendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj\te13fc1db482957e5\n8\t1559\t7096009078527357\tCMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj\t86c534650330e738\n1003\t1859\t7096009081558048\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj\ta2580a9c4f11450a\n990\t1876\t7096009081738093\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj\t3b877c24a578537a\n983\t1883\t7096009081818105\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj\t19b13bcd4675c2a4\n1032\t1931\t7096009082298216\tvendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj\t33023191f750fc9d\n1079\t1951\t7096009082498259\tvendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj\t443b1573617b7793\n1010\t1978\t7096009082768318\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj\t12e94f6a2bdf9d9b\n1416\t2179\t7096009084788777\tvendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj\t3a5a17daa7ba462a\n2179\t2262\t7096009085618968\tvendor/glfw/src/libglfw3.a\t7a17fcf7d721d392\n39\t902\t7096015457789696\tvendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj\t311d3d398502ab71\n14\t909\t7096015457809700\tvendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj\t124e9b41248e6f23\n19\t919\t7096015457899721\tvendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj\t123295de294984ef\n23\t925\t7096015457879718\tvendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj\tbfc3b3ed2ba9225b\n45\t932\t7096015457909724\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj\t319835bf0663ff88\n33\t973\t7096015458499859\tvendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj\te13fc1db482957e5\n29\t983\t7096015458559871\tvendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj\t97a0df3311345c10\n8\t1369\t7096015462460761\tCMakeFiles/OpenGLPrj.dir/src/main.cpp.obj\t92afd03b42b6cf63\n0\t1467\t7096015463360961\tCMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj\t86c534650330e738\n925\t1778\t7096015466551684\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj\tf47b211f31719efb\n919\t1788\t7096015466661709\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj\ta2580a9c4f11450a\n903\t1792\t7096015466681715\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj\t19b13bcd4675c2a4\n909\t1794\t7096015466721721\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj\t3b877c24a578537a\n983\t1857\t7096015467361868\tvendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj\t33023191f750fc9d\n973\t1865\t7096015467431883\tvendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj\t3a5a17daa7ba462a\n932\t1902\t7096015467801965\tvendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj\t12e94f6a2bdf9d9b\n1372\t2099\t7096015469782418\tvendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj\t443b1573617b7793\n2099\t2175\t7096015470552587\tvendor/glfw/src/libglfw3.a\t7a17fcf7d721d392\n2175\t2324\t7096015472012925\tOpenGLPrj/OpenGLPrj.exe\t730c96ddec62a396\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/.ninja_log b/cmake-build-debug/.ninja_log
+--- a/cmake-build-debug/.ninja_log	
++++ b/cmake-build-debug/.ninja_log	
+@@ -1,39 +1,20 @@
+ # ninja log v5
+-34	979	7096009072667936	vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	bfc3b3ed2ba9225b
+-40	1078	7096009073750619	vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj	97a0df3311345c10
+-45	989	7096009072717946	vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	319835bf0663ff88
+-2262	2404	7096009087009282	OpenGLPrj/OpenGLPrj.exe	730c96ddec62a396
+-14	996	7096009072687940	vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj	124e9b41248e6f23
+-28	1003	7096009072797969	vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	311d3d398502ab71
+-996	1874	7096009081718085	vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	f47b211f31719efb
+-0	1412	7096009077077030	CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj	92afd03b42b6cf63
+-18	1010	7096009072757955	vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj	123295de294984ef
+-24	1032	7096009073208057	vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj	e13fc1db482957e5
+-8	1559	7096009078527357	CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj	86c534650330e738
+-1003	1859	7096009081558048	vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	a2580a9c4f11450a
+-990	1876	7096009081738093	vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	3b877c24a578537a
+-983	1883	7096009081818105	vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	19b13bcd4675c2a4
+-1032	1931	7096009082298216	vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	33023191f750fc9d
+-1079	1951	7096009082498259	vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	443b1573617b7793
+-1010	1978	7096009082768318	vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	12e94f6a2bdf9d9b
+-1416	2179	7096009084788777	vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	3a5a17daa7ba462a
+-2179	2262	7096009085618968	vendor/glfw/src/libglfw3.a	7a17fcf7d721d392
+-39	902	7096015457789696	vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	311d3d398502ab71
+-14	909	7096015457809700	vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj	124e9b41248e6f23
+-19	919	7096015457899721	vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj	123295de294984ef
+ 23	925	7096015457879718	vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	bfc3b3ed2ba9225b
+-45	932	7096015457909724	vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	319835bf0663ff88
+-33	973	7096015458499859	vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj	e13fc1db482957e5
+ 29	983	7096015458559871	vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj	97a0df3311345c10
++45	932	7096015457909724	vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	319835bf0663ff88
++2175	2324	7096015472012925	OpenGLPrj/OpenGLPrj.exe	730c96ddec62a396
++14	909	7096015457809700	vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj	124e9b41248e6f23
++39	902	7096015457789696	vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	311d3d398502ab71
++925	1778	7096015466551684	vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	f47b211f31719efb
+ 8	1369	7096015462460761	CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj	92afd03b42b6cf63
++19	919	7096015457899721	vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj	123295de294984ef
++33	973	7096015458499859	vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj	e13fc1db482957e5
+ 0	1467	7096015463360961	CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj	86c534650330e738
+-925	1778	7096015466551684	vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	f47b211f31719efb
+ 919	1788	7096015466661709	vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	a2580a9c4f11450a
+-903	1792	7096015466681715	vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	19b13bcd4675c2a4
+ 909	1794	7096015466721721	vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	3b877c24a578537a
++903	1792	7096015466681715	vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	19b13bcd4675c2a4
+ 983	1857	7096015467361868	vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	33023191f750fc9d
++1372	2099	7096015469782418	vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	443b1573617b7793
++932	1902	7096015467801965	vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	12e94f6a2bdf9d9b
+ 973	1865	7096015467431883	vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	3a5a17daa7ba462a
+-932	1902	7096015467801965	vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	12e94f6a2bdf9d9b
+-1372	2099	7096015469782418	vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	443b1573617b7793
+ 2099	2175	7096015470552587	vendor/glfw/src/libglfw3.a	7a17fcf7d721d392
+-2175	2324	7096015472012925	OpenGLPrj/OpenGLPrj.exe	730c96ddec62a396

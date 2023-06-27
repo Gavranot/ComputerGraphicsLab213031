@@ -1,0 +1,661 @@
+Index: cmake-build-debug/.cmake/api/v1/reply/target-OpenGLPrj-Debug-06de6ada06eb6328524c.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/target-OpenGLPrj-Debug-06de6ada06eb6328524c.json b/cmake-build-debug/.cmake/api/v1/reply/target-OpenGLPrj-Debug-06de6ada06eb6328524c.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/target-OpenGLPrj-Debug-06de6ada06eb6328524c.json	
++++ /dev/null	
+@@ -1,273 +0,0 @@
+-{
+-	"artifacts" : 
+-	[
+-		{
+-			"path" : "OpenGLPrj/OpenGLPrj.exe"
+-		},
+-		{
+-			"path" : "OpenGLPrj/OpenGLPrj.pdb"
+-		}
+-	],
+-	"backtrace" : 1,
+-	"backtraceGraph" : 
+-	{
+-		"commands" : 
+-		[
+-			"add_executable",
+-			"target_link_libraries",
+-			"add_definitions",
+-			"include_directories"
+-		],
+-		"files" : 
+-		[
+-			"CMakeLists.txt"
+-		],
+-		"nodes" : 
+-		[
+-			{
+-				"file" : 0
+-			},
+-			{
+-				"command" : 0,
+-				"file" : 0,
+-				"line" : 47,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 1,
+-				"file" : 0,
+-				"line" : 50,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 2,
+-				"file" : 0,
+-				"line" : 45,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 3,
+-				"file" : 0,
+-				"line" : 18,
+-				"parent" : 0
+-			}
+-		]
+-	},
+-	"compileGroups" : 
+-	[
+-		{
+-			"compileCommandFragments" : 
+-			[
+-				{
+-					"fragment" : " -Wall -Wextra -Wpedantic -std=c++11 -g -fdiagnostics-color=always"
+-				}
+-			],
+-			"defines" : 
+-			[
+-				{
+-					"backtrace" : 3,
+-					"define" : "GLFW_INCLUDE_NONE"
+-				},
+-				{
+-					"backtrace" : 3,
+-					"define" : "PROJECT_SOURCE_DIR=\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\""
+-				}
+-			],
+-			"includes" : 
+-			[
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/include"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/include"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glm"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/stb"
+-				}
+-			],
+-			"language" : "CXX",
+-			"sourceIndexes" : 
+-			[
+-				0
+-			]
+-		},
+-		{
+-			"compileCommandFragments" : 
+-			[
+-				{
+-					"fragment" : "-g -fdiagnostics-color=always"
+-				}
+-			],
+-			"defines" : 
+-			[
+-				{
+-					"backtrace" : 3,
+-					"define" : "GLFW_INCLUDE_NONE"
+-				},
+-				{
+-					"backtrace" : 3,
+-					"define" : "PROJECT_SOURCE_DIR=\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\""
+-				}
+-			],
+-			"includes" : 
+-			[
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/include"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/include"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glm"
+-				},
+-				{
+-					"backtrace" : 4,
+-					"path" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/stb"
+-				}
+-			],
+-			"language" : "C",
+-			"sourceIndexes" : 
+-			[
+-				7
+-			]
+-		}
+-	],
+-	"dependencies" : 
+-	[
+-		{
+-			"backtrace" : 2,
+-			"id" : "glfw::@31bd9730e6b8c71cc656"
+-		}
+-	],
+-	"id" : "OpenGLPrj::@6890427a1f51a3e7e1df",
+-	"link" : 
+-	{
+-		"commandFragments" : 
+-		[
+-			{
+-				"fragment" : "-Wall -Wextra -Wpedantic -std=c++11 -g",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "",
+-				"role" : "flags"
+-			},
+-			{
+-				"backtrace" : 2,
+-				"fragment" : "vendor\\glfw\\src\\libglfw3.a",
+-				"role" : "libraries"
+-			},
+-			{
+-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+-				"role" : "libraries"
+-			}
+-		],
+-		"language" : "CXX"
+-	},
+-	"name" : "OpenGLPrj",
+-	"nameOnDisk" : "OpenGLPrj.exe",
+-	"paths" : 
+-	{
+-		"build" : ".",
+-		"source" : "."
+-	},
+-	"sourceGroups" : 
+-	[
+-		{
+-			"name" : "src",
+-			"sourceIndexes" : 
+-			[
+-				0
+-			]
+-		},
+-		{
+-			"name" : "include",
+-			"sourceIndexes" : 
+-			[
+-				1
+-			]
+-		},
+-		{
+-			"name" : "",
+-			"sourceIndexes" : 
+-			[
+-				2,
+-				3,
+-				4,
+-				5,
+-				6
+-			]
+-		},
+-		{
+-			"name" : "vendors",
+-			"sourceIndexes" : 
+-			[
+-				7
+-			]
+-		}
+-	],
+-	"sources" : 
+-	[
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "src/main.cpp",
+-			"sourceGroupIndex" : 0
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : "include/OpenGLPrj.hpp",
+-			"sourceGroupIndex" : 1
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : ".gitattributes",
+-			"sourceGroupIndex" : 2
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : ".gitignore",
+-			"sourceGroupIndex" : 2
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : ".gitmodules",
+-			"sourceGroupIndex" : 2
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : "CMakeLists.txt",
+-			"sourceGroupIndex" : 2
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : "ReadMe.md",
+-			"sourceGroupIndex" : 2
+-		},
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 1,
+-			"path" : "vendor/glad/src/glad.c",
+-			"sourceGroupIndex" : 3
+-		}
+-	],
+-	"type" : "EXECUTABLE"
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/index-2023-06-27T20-29-13-0973.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-27T20-29-13-0973.json b/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-27T20-29-13-0973.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-27T20-29-13-0973.json	
++++ /dev/null	
+@@ -1,108 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Program Files/JetBrains/CLion 2022.3.3/bin/cmake/win/x64/bin/cmake.exe",
+-			"cpack" : "C:/Program Files/JetBrains/CLion 2022.3.3/bin/cmake/win/x64/bin/cpack.exe",
+-			"ctest" : "C:/Program Files/JetBrains/CLion 2022.3.3/bin/cmake/win/x64/bin/ctest.exe",
+-			"root" : "C:/Program Files/JetBrains/CLion 2022.3.3/bin/cmake/win/x64/share/cmake-3.24"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : false,
+-			"major" : 3,
+-			"minor" : 24,
+-			"patch" : 2,
+-			"string" : "3.24.2",
+-			"suffix" : ""
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-ce7cc98f8cdb95b8ca14.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 4
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-fd80ff8e343cd53b377a.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-4def1d23aa2e3fa7b235.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "toolchains-v1-739cf50e421f763cf307.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"cache-v2" : 
+-		{
+-			"jsonFile" : "cache-v2-fd80ff8e343cd53b377a.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		"cmakeFiles-v1" : 
+-		{
+-			"jsonFile" : "cmakeFiles-v1-4def1d23aa2e3fa7b235.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		"codemodel-v2" : 
+-		{
+-			"jsonFile" : "codemodel-v2-ce7cc98f8cdb95b8ca14.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 4
+-			}
+-		},
+-		"toolchains-v1" : 
+-		{
+-			"jsonFile" : "toolchains-v1-739cf50e421f763cf307.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ce7cc98f8cdb95b8ca14.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ce7cc98f8cdb95b8ca14.json b/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ce7cc98f8cdb95b8ca14.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ce7cc98f8cdb95b8ca14.json	
++++ /dev/null	
+@@ -1,133 +0,0 @@
+-{
+-	"configurations" : 
+-	[
+-		{
+-			"directories" : 
+-			[
+-				{
+-					"build" : ".",
+-					"childIndexes" : 
+-					[
+-						1
+-					],
+-					"hasInstallRule" : true,
+-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+-					"minimumCMakeVersion" : 
+-					{
+-						"string" : "3.0"
+-					},
+-					"projectIndex" : 0,
+-					"source" : ".",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				},
+-				{
+-					"build" : "vendor/glfw",
+-					"childIndexes" : 
+-					[
+-						2
+-					],
+-					"hasInstallRule" : true,
+-					"jsonFile" : "directory-vendor.glfw-Debug-8791d0f5eb17d777de54.json",
+-					"minimumCMakeVersion" : 
+-					{
+-						"string" : "3.0"
+-					},
+-					"parentIndex" : 0,
+-					"projectIndex" : 1,
+-					"source" : "vendor/glfw",
+-					"targetIndexes" : 
+-					[
+-						2
+-					]
+-				},
+-				{
+-					"build" : "vendor/glfw/src",
+-					"hasInstallRule" : true,
+-					"jsonFile" : "directory-vendor.glfw.src-Debug-6eb1750a3c830f800660.json",
+-					"minimumCMakeVersion" : 
+-					{
+-						"string" : "3.0"
+-					},
+-					"parentIndex" : 1,
+-					"projectIndex" : 1,
+-					"source" : "vendor/glfw/src",
+-					"targetIndexes" : 
+-					[
+-						1
+-					]
+-				}
+-			],
+-			"name" : "Debug",
+-			"projects" : 
+-			[
+-				{
+-					"childIndexes" : 
+-					[
+-						1
+-					],
+-					"directoryIndexes" : 
+-					[
+-						0
+-					],
+-					"name" : "OpenGLPrj",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				},
+-				{
+-					"directoryIndexes" : 
+-					[
+-						1,
+-						2
+-					],
+-					"name" : "GLFW",
+-					"parentIndex" : 0,
+-					"targetIndexes" : 
+-					[
+-						1,
+-						2
+-					]
+-				}
+-			],
+-			"targets" : 
+-			[
+-				{
+-					"directoryIndex" : 0,
+-					"id" : "OpenGLPrj::@6890427a1f51a3e7e1df",
+-					"jsonFile" : "target-OpenGLPrj-Debug-06de6ada06eb6328524c.json",
+-					"name" : "OpenGLPrj",
+-					"projectIndex" : 0
+-				},
+-				{
+-					"directoryIndex" : 2,
+-					"id" : "glfw::@31bd9730e6b8c71cc656",
+-					"jsonFile" : "target-glfw-Debug-14b0345247acfc5472e1.json",
+-					"name" : "glfw",
+-					"projectIndex" : 1
+-				},
+-				{
+-					"directoryIndex" : 1,
+-					"id" : "uninstall::@0e1c3310cc3779ba9d9b",
+-					"jsonFile" : "target-uninstall-Debug-5fc271bc842a8bf46b64.json",
+-					"name" : "uninstall",
+-					"projectIndex" : 1
+-				}
+-			]
+-		}
+-	],
+-	"kind" : "codemodel",
+-	"paths" : 
+-	{
+-		"build" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug",
+-		"source" : "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031"
+-	},
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 4
+-	}
+-}
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Jun 27 22:39 Central European Summer Time\n----------------------------------------------------------\nEnd testing: Jun 27 22:39 Central European Summer Time\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	
+@@ -1,3 +1,3 @@
+-Start testing: Jun 27 22:39 Central European Summer Time
++Start testing: Jun 27 22:48 Central European Summer Time
+ ----------------------------------------------------------
+-End testing: Jun 27 22:39 Central European Summer Time
++End testing: Jun 27 22:48 Central European Summer Time
+Index: cmake-build-debug/build.ninja
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># CMAKE generated file: DO NOT EDIT!\n# Generated by \"Ninja\" Generator, CMake Version 3.24\n\n# This file contains all the build statements describing the\n# compilation DAG.\n\n# =============================================================================\n# Write statements declared in CMakeLists.txt:\n# \n# Which is the root file.\n# =============================================================================\n\n# =============================================================================\n# Project: OpenGLPrj\n# Configurations: Debug\n# =============================================================================\n\n#############################################\n# Minimal version of Ninja required by this file\n\nninja_required_version = 1.5\n\n\n#############################################\n# Set configuration variable for custom commands.\n\nCONFIGURATION = Debug\n# =============================================================================\n# Include auxiliary files.\n\n\n#############################################\n# Include rules file.\n\ninclude CMakeFiles/rules.ninja\n\n# =============================================================================\n\n#############################################\n# Logical path to working directory; prefix for absolute paths.\n\ncmake_ninja_workdir = C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/\n# =============================================================================\n# Object build statements for EXECUTABLE target OpenGLPrj\n\n\n#############################################\n# Order-only phony target for OpenGLPrj\n\nbuild cmake_object_order_depends_target_OpenGLPrj: phony || cmake_object_order_depends_target_glfw\n\nbuild CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj: CXX_COMPILER__OpenGLPrj_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/src/main.cpp || cmake_object_order_depends_target_OpenGLPrj\n  DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\\\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\\\"\n  DEP_FILE = CMakeFiles\\OpenGLPrj.dir\\src\\main.cpp.obj.d\n  FLAGS = -Wall -Wextra -Wpedantic -std=c++11 -g -fdiagnostics-color=always\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glm -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/stb\n  OBJECT_DIR = CMakeFiles\\OpenGLPrj.dir\n  OBJECT_FILE_DIR = CMakeFiles\\OpenGLPrj.dir\\src\n\nbuild CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj: C_COMPILER__OpenGLPrj_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/src/glad.c || cmake_object_order_depends_target_OpenGLPrj\n  DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\\\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\\\"\n  DEP_FILE = CMakeFiles\\OpenGLPrj.dir\\vendor\\glad\\src\\glad.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glm -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/stb\n  OBJECT_DIR = CMakeFiles\\OpenGLPrj.dir\n  OBJECT_FILE_DIR = CMakeFiles\\OpenGLPrj.dir\\vendor\\glad\\src\n\n\n# =============================================================================\n# Link build statements for EXECUTABLE target OpenGLPrj\n\n\n#############################################\n# Link the executable OpenGLPrj\\OpenGLPrj.exe\n\nbuild OpenGLPrj/OpenGLPrj.exe: CXX_EXECUTABLE_LINKER__OpenGLPrj_Debug CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj | vendor/glfw/src/libglfw3.a || vendor/glfw/src/libglfw3.a\n  FLAGS = -Wall -Wextra -Wpedantic -std=c++11 -g\n  LINK_LIBRARIES = vendor/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32\n  OBJECT_DIR = CMakeFiles\\OpenGLPrj.dir\n  POST_BUILD = cd .\n  PRE_LINK = cd .\n  TARGET_FILE = OpenGLPrj\\OpenGLPrj.exe\n  TARGET_IMPLIB = libOpenGLPrj.dll.a\n  TARGET_PDB = OpenGLPrj.exe.dbg\n\n\n#############################################\n# Utility command for edit_cache\n\nbuild CMakeFiles/edit_cache.util: CUSTOM_COMMAND\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -E echo \"No interactive CMake dialog available.\"\"\n  DESC = No interactive CMake dialog available...\n  restat = 1\n\nbuild edit_cache: phony CMakeFiles/edit_cache.util\n\n\n#############################################\n# Utility command for rebuild_cache\n\nbuild CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" --regenerate-during-build -SC:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031 -BC:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\"\n  DESC = Running CMake to regenerate build system...\n  pool = console\n  restat = 1\n\nbuild rebuild_cache: phony CMakeFiles/rebuild_cache.util\n\n\n#############################################\n# Utility command for list_install_components\n\nbuild list_install_components: phony\n\n\n#############################################\n# Utility command for install\n\nbuild CMakeFiles/install.util: CUSTOM_COMMAND all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -P cmake_install.cmake\"\n  DESC = Install the project...\n  pool = console\n  restat = 1\n\nbuild install: phony CMakeFiles/install.util\n\n\n#############################################\n# Utility command for install/local\n\nbuild CMakeFiles/install/local.util: CUSTOM_COMMAND all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"\n  DESC = Installing only the local directory...\n  pool = console\n  restat = 1\n\nbuild install/local: phony CMakeFiles/install/local.util\n\n\n#############################################\n# Utility command for install/strip\n\nbuild CMakeFiles/install/strip.util: CUSTOM_COMMAND all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake\"\n  DESC = Installing the project stripped...\n  pool = console\n  restat = 1\n\nbuild install/strip: phony CMakeFiles/install/strip.util\n\n# =============================================================================\n# Write statements declared in CMakeLists.txt:\n# C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/CMakeLists.txt\n# =============================================================================\n\n\n#############################################\n# Utility command for uninstall\n\nbuild vendor/glfw/uninstall: phony vendor/glfw/CMakeFiles/uninstall\n\n\n#############################################\n# Utility command for edit_cache\n\nbuild vendor/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -E echo \"No interactive CMake dialog available.\"\"\n  DESC = No interactive CMake dialog available...\n  restat = 1\n\nbuild vendor/glfw/edit_cache: phony vendor/glfw/CMakeFiles/edit_cache.util\n\n\n#############################################\n# Utility command for rebuild_cache\n\nbuild vendor/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" --regenerate-during-build -SC:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031 -BC:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\"\n  DESC = Running CMake to regenerate build system...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/rebuild_cache: phony vendor/glfw/CMakeFiles/rebuild_cache.util\n\n\n#############################################\n# Utility command for list_install_components\n\nbuild vendor/glfw/list_install_components: phony\n\n\n#############################################\n# Utility command for install\n\nbuild vendor/glfw/CMakeFiles/install.util: CUSTOM_COMMAND vendor/glfw/all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -P cmake_install.cmake\"\n  DESC = Install the project...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/install: phony vendor/glfw/CMakeFiles/install.util\n\n\n#############################################\n# Utility command for install/local\n\nbuild vendor/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND vendor/glfw/all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"\n  DESC = Installing only the local directory...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/install/local: phony vendor/glfw/CMakeFiles/install/local.util\n\n\n#############################################\n# Utility command for install/strip\n\nbuild vendor/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND vendor/glfw/all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake\"\n  DESC = Installing the project stripped...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/install/strip: phony vendor/glfw/CMakeFiles/install/strip.util\n\n\n#############################################\n# Custom command for vendor\\glfw\\CMakeFiles\\uninstall\n\nbuild vendor/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}vendor/glfw/CMakeFiles/uninstall: CUSTOM_COMMAND\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -P C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/cmake_uninstall.cmake\"\n\n# =============================================================================\n# Write statements declared in CMakeLists.txt:\n# C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/CMakeLists.txt\n# =============================================================================\n\n# =============================================================================\n# Object build statements for STATIC_LIBRARY target glfw\n\n\n#############################################\n# Order-only phony target for glfw\n\nbuild cmake_object_order_depends_target_glfw: phony || vendor/glfw/src/CMakeFiles/glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/context.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/init.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/input.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/monitor.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/window.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\nbuild vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw\n  DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H\n  DEP_FILE = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj.d\n  FLAGS = -g -fdiagnostics-color=always -Wall -Wdeclaration-after-statement\n  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  OBJECT_FILE_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n\n\n# =============================================================================\n# Link build statements for STATIC_LIBRARY target glfw\n\n\n#############################################\n# Link the static library vendor\\glfw\\src\\libglfw3.a\n\nbuild vendor/glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj\n  LANGUAGE_COMPILE_FLAGS = -g\n  OBJECT_DIR = vendor\\glfw\\src\\CMakeFiles\\glfw.dir\n  POST_BUILD = cd .\n  PRE_LINK = cd .\n  TARGET_FILE = vendor\\glfw\\src\\libglfw3.a\n  TARGET_PDB = glfw3.a.dbg\n\n\n#############################################\n# Utility command for edit_cache\n\nbuild vendor/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw\\src && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -E echo \"No interactive CMake dialog available.\"\"\n  DESC = No interactive CMake dialog available...\n  restat = 1\n\nbuild vendor/glfw/src/edit_cache: phony vendor/glfw/src/CMakeFiles/edit_cache.util\n\n\n#############################################\n# Utility command for rebuild_cache\n\nbuild vendor/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw\\src && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" --regenerate-during-build -SC:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031 -BC:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\"\n  DESC = Running CMake to regenerate build system...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/src/rebuild_cache: phony vendor/glfw/src/CMakeFiles/rebuild_cache.util\n\n\n#############################################\n# Utility command for list_install_components\n\nbuild vendor/glfw/src/list_install_components: phony\n\n\n#############################################\n# Utility command for install\n\nbuild vendor/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND vendor/glfw/src/all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw\\src && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -P cmake_install.cmake\"\n  DESC = Install the project...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/src/install: phony vendor/glfw/src/CMakeFiles/install.util\n\n\n#############################################\n# Utility command for install/local\n\nbuild vendor/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND vendor/glfw/src/all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw\\src && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"\n  DESC = Installing only the local directory...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/src/install/local: phony vendor/glfw/src/CMakeFiles/install/local.util\n\n\n#############################################\n# Utility command for install/strip\n\nbuild vendor/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND vendor/glfw/src/all\n  COMMAND = cmd.exe /C \"cd /D C:\\Users\\Damjan\\CLionProjects\\ComputerGraphicsLab213031\\cmake-build-debug\\vendor\\glfw\\src && \"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake\"\n  DESC = Installing the project stripped...\n  pool = console\n  restat = 1\n\nbuild vendor/glfw/src/install/strip: phony vendor/glfw/src/CMakeFiles/install/strip.util\n\n# =============================================================================\n# Target aliases.\n\nbuild OpenGLPrj: phony OpenGLPrj/OpenGLPrj.exe\n\nbuild OpenGLPrj.exe: phony OpenGLPrj/OpenGLPrj.exe\n\nbuild glfw: phony vendor/glfw/src/libglfw3.a\n\nbuild libglfw3.a: phony vendor/glfw/src/libglfw3.a\n\nbuild uninstall: phony vendor/glfw/uninstall\n\n# =============================================================================\n# Folder targets.\n\n# =============================================================================\n\n#############################################\n# Folder: C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug\n\nbuild all: phony OpenGLPrj/OpenGLPrj.exe vendor/glfw/all\n\n# =============================================================================\n\n#############################################\n# Folder: C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw\n\nbuild vendor/glfw/all: phony vendor/glfw/src/all\n\n# =============================================================================\n\n#############################################\n# Folder: C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/cmake-build-debug/vendor/glfw/src\n\nbuild vendor/glfw/src/all: phony vendor/glfw/src/libglfw3.a\n\n# =============================================================================\n# Unknown Build Time Dependencies.\n# Tell Ninja that they may appear as side effects of build rules\n# otherwise ordered by order-only dependencies.\n\n# =============================================================================\n# Built-in targets\n\n\n#############################################\n# Re-run CMake if any of its inputs changed.\n\nbuild build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/CMakeLists.txt C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/CMakeLists.txt C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/CMake/modules/FindVulkan.cmake C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/cmake_uninstall.cmake.in C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/CMakeLists.txt C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/glfw3.pc.in C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/glfw3Config.cmake.in C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake\n  pool = console\n\n\n#############################################\n# A missing CMake input file is not an error.\n\nbuild C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.3/bin/cmake/win/x64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/CMakeLists.txt C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/CMakeLists.txt C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/CMake/modules/FindVulkan.cmake C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/cmake_uninstall.cmake.in C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/CMakeLists.txt C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/glfw3.pc.in C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/glfw3Config.cmake.in C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony\n\n\n#############################################\n# Clean all the built files.\n\nbuild clean: CLEAN\n\n\n#############################################\n# Print all primary targets available.\n\nbuild help: HELP\n\n\n#############################################\n# Make the all target the default.\n\ndefault all\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/build.ninja b/cmake-build-debug/build.ninja
+--- a/cmake-build-debug/build.ninja	
++++ b/cmake-build-debug/build.ninja	
+@@ -49,6 +49,22 @@
+ 
+ build cmake_object_order_depends_target_OpenGLPrj: phony || cmake_object_order_depends_target_glfw
+ 
++build CMakeFiles/OpenGLPrj.dir/src/Camera.cpp.obj: CXX_COMPILER__OpenGLPrj_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/src/Camera.cpp || cmake_object_order_depends_target_OpenGLPrj
++  DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\"
++  DEP_FILE = CMakeFiles\OpenGLPrj.dir\src\Camera.cpp.obj.d
++  FLAGS = -Wall -Wextra -Wpedantic -std=c++11 -g -fdiagnostics-color=always
++  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glm -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/stb
++  OBJECT_DIR = CMakeFiles\OpenGLPrj.dir
++  OBJECT_FILE_DIR = CMakeFiles\OpenGLPrj.dir\src
++
++build CMakeFiles/OpenGLPrj.dir/src/Shader.cpp.obj: CXX_COMPILER__OpenGLPrj_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/src/Shader.cpp || cmake_object_order_depends_target_OpenGLPrj
++  DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\"
++  DEP_FILE = CMakeFiles\OpenGLPrj.dir\src\Shader.cpp.obj.d
++  FLAGS = -Wall -Wextra -Wpedantic -std=c++11 -g -fdiagnostics-color=always
++  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glm -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/stb
++  OBJECT_DIR = CMakeFiles\OpenGLPrj.dir
++  OBJECT_FILE_DIR = CMakeFiles\OpenGLPrj.dir\src
++
+ build CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj: CXX_COMPILER__OpenGLPrj_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/src/main.cpp || cmake_object_order_depends_target_OpenGLPrj
+   DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\"
+   DEP_FILE = CMakeFiles\OpenGLPrj.dir\src\main.cpp.obj.d
+@@ -73,7 +89,7 @@
+ #############################################
+ # Link the executable OpenGLPrj\OpenGLPrj.exe
+ 
+-build OpenGLPrj/OpenGLPrj.exe: CXX_EXECUTABLE_LINKER__OpenGLPrj_Debug CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj | vendor/glfw/src/libglfw3.a || vendor/glfw/src/libglfw3.a
++build OpenGLPrj/OpenGLPrj.exe: CXX_EXECUTABLE_LINKER__OpenGLPrj_Debug CMakeFiles/OpenGLPrj.dir/src/Camera.cpp.obj CMakeFiles/OpenGLPrj.dir/src/Shader.cpp.obj CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj | vendor/glfw/src/libglfw3.a || vendor/glfw/src/libglfw3.a
+   FLAGS = -Wall -Wextra -Wpedantic -std=c++11 -g
+   LINK_LIBRARIES = vendor/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+   OBJECT_DIR = CMakeFiles\OpenGLPrj.dir
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"CMakePresetLoader\"><![CDATA[{\n  \"useNewFormat\": true\n}]]></component>\n  <component name=\"CMakeReloadState\">\n    <option name=\"reloaded\" value=\"true\" />\n  </component>\n  <component name=\"CMakeRunConfigurationManager\">\n    <generated>\n      <config projectName=\"OpenGLPrj\" targetName=\"glfw\" />\n      <config projectName=\"OpenGLPrj\" targetName=\"OpenGLPrj\" />\n      <config projectName=\"OpenGLPrj\" targetName=\"uninstall\" />\n    </generated>\n  </component>\n  <component name=\"CMakeSettings\">\n    <configurations>\n      <configuration PROFILE_NAME=\"Debug\" ENABLED=\"true\" CONFIG_NAME=\"Debug\" />\n    </configurations>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6e0a33d3-a743-4e65-a4d8-7953a35e9e44\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"CMakeBuildProfile:Debug\" />\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectApplicationVersion\">\n    <option name=\"ide\" value=\"CLion\" />\n    <option name=\"majorVersion\" value=\"2022\" />\n    <option name=\"minorVersion\" value=\"3.3\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Rnr48FPRlKpxKYkYP0P5kVJ56F\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"cf.first.check.clang-format\": \"false\",\n    \"cidr.known.project.marker\": \"true\",\n    \"last_opened_file_path\": \"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/CMakeLists.txt\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RunManager\" selected=\"CMake Application.OpenGLPrj\">\n    <configuration default=\"true\" type=\"CLionExternalRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\">\n      <method v=\"2\">\n        <option name=\"CLION.EXTERNAL.BUILD\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"OpenGLPrj\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"OpenGLPrj\" TARGET_NAME=\"OpenGLPrj\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"OpenGLPrj\" RUN_TARGET_NAME=\"OpenGLPrj\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"glfw\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"OpenGLPrj\" TARGET_NAME=\"glfw\" CONFIG_NAME=\"Debug\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"uninstall\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"OpenGLPrj\" TARGET_NAME=\"uninstall\" CONFIG_NAME=\"Debug\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"CMake Application.OpenGLPrj\" />\n      <item itemvalue=\"CMake Application.uninstall\" />\n      <item itemvalue=\"CMake Application.glfw\" />\n    </list>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"6e0a33d3-a743-4e65-a4d8-7953a35e9e44\" name=\"Changes\" comment=\"\" />\n      <created>1687896492540</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1687896492540</updated>\n      <workItem from=\"1687896494339\" duration=\"1243000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -3,9 +3,9 @@
+   <component name="AutoImportSettings">
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+-  <component name="CMakePresetLoader"><![CDATA[{
+-  "useNewFormat": true
+-}]]></component>
++  <component name="CMakePresetLoader">{
++  &quot;useNewFormat&quot;: true
++}</component>
+   <component name="CMakeReloadState">
+     <option name="reloaded" value="true" />
+   </component>
+@@ -48,27 +48,28 @@
+     <option name="minorVersion" value="3.3" />
+   </component>
+   <component name="ProjectId" id="2Rnr48FPRlKpxKYkYP0P5kVJ56F" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.cidr.known.project.marker": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "cf.first.check.clang-format": "false",
+-    "cidr.known.project.marker": "true",
+-    "last_opened_file_path": "C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/CMakeLists.txt",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
++    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/CMakeLists.txt&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager" selected="CMake Application.OpenGLPrj">
+     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+       <method v="2">
