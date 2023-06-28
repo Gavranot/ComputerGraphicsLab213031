@@ -49,6 +49,14 @@ cmake_ninja_workdir = C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/c
 
 build cmake_object_order_depends_target_OpenGLPrj: phony || cmake_object_order_depends_target_glfw
 
+build CMakeFiles/OpenGLPrj.dir/src/Shader.cpp.obj: CXX_COMPILER__OpenGLPrj_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/src/Shader.cpp || cmake_object_order_depends_target_OpenGLPrj
+  DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\"
+  DEP_FILE = CMakeFiles\OpenGLPrj.dir\src\Shader.cpp.obj.d
+  FLAGS = -Wall -Wextra -Wpedantic -std=c++11 -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glad/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glfw/include -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/glm -IC:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/vendor/stb
+  OBJECT_DIR = CMakeFiles\OpenGLPrj.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenGLPrj.dir\src
+
 build CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj: CXX_COMPILER__OpenGLPrj_Debug C$:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031/src/main.cpp || cmake_object_order_depends_target_OpenGLPrj
   DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"C:/Users/Damjan/CLionProjects/ComputerGraphicsLab213031\"
   DEP_FILE = CMakeFiles\OpenGLPrj.dir\src\main.cpp.obj.d
@@ -73,7 +81,7 @@ build CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj: C_COMPILER__OpenGLPrj
 #############################################
 # Link the executable OpenGLPrj\OpenGLPrj.exe
 
-build OpenGLPrj/OpenGLPrj.exe: CXX_EXECUTABLE_LINKER__OpenGLPrj_Debug CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj | vendor/glfw/src/libglfw3.a || vendor/glfw/src/libglfw3.a
+build OpenGLPrj/OpenGLPrj.exe: CXX_EXECUTABLE_LINKER__OpenGLPrj_Debug CMakeFiles/OpenGLPrj.dir/src/Shader.cpp.obj CMakeFiles/OpenGLPrj.dir/src/main.cpp.obj CMakeFiles/OpenGLPrj.dir/vendor/glad/src/glad.c.obj | vendor/glfw/src/libglfw3.a || vendor/glfw/src/libglfw3.a
   FLAGS = -Wall -Wextra -Wpedantic -std=c++11 -g
   LINK_LIBRARIES = vendor/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenGLPrj.dir
